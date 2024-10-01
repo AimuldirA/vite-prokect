@@ -50,7 +50,7 @@ function Home() {
 
   return (
     <div className="ml-8 space-y-4 mt-8">
-      <h1 className="text-red-500 text-2xl ml-48">Project list</h1>
+      <h1 className="text-blue-600 text-2xl ml-48">Project list</h1>
       <ul className=" space-y-4 w-1/2">
         {Projects.map((project) => (
           <li className="flex items-center space-x-2" key={project.id}>
